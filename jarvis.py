@@ -83,7 +83,9 @@ if __name__ == "__main__":
         elif 'open google' in query:
             webbrowser.open("https://google.com")
             speak("Here you are")
-       
+        elif 'open amazon' in query:
+            webbrowser.open("amazon.com")
+            speak("here you are ,sir")
         
        
         elif 'play music' in query:
